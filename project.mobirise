@@ -1,0 +1,97 @@
+{
+  "settings": {
+    "name": "Как выбрать продукты",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {}
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 14,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-4",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "КАК ПРОДАТЬ ПРОДУКТЫ&nbsp;НЕ ВЫХОДЯ ИЗ ДОМА",
+          "text": "Краткая инструкция для садоводов, пчеловодов, фермеров и владельцев личных подворий.<br><br><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"index.html#form2-d\" data-toolbar=\"-mbrBtnMove\">ПОЛУЧИТЬ ИНСТРУКЦИЮ</a>",
+          "_styles": {
+            "H1": {
+              "font-size": "32px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true
+          },
+          "title": "ИНСТРУКЦИЯ В PDF-ФОРМАТЕ",
+          "form": {
+            "action": "selpo@mail.ru",
+            "alerts": {
+              "success": "Благодарим за подписку! Проверьте вашу почту, мы уже выслали вам инструкцию."
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Укажите Ваш e-mail"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">ВЫСЛАТЬ</a>"
+        }
+      ]
+    }
+  }
+}
