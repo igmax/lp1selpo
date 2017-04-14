@@ -32,7 +32,7 @@
           "_name": "header1",
           "_styles": {
             "H1": {
-              "font-size": "32px"
+              "font-size": "46px"
             }
           },
           "_anchor": "header1-4",
@@ -55,7 +55,7 @@
             "showButtons": true,
             "showArrow": true
           },
-          "title": "КАК ПРОДАТЬ ПРОДУКТЫ&nbsp;НЕ ВЫХОДЯ ИЗ ДОМА",
+          "title": "Как Продать Продукты Не Выходя Из Дома",
           "text": "Краткая инструкция для садоводов, пчеловодов, фермеров и владельцев личных подворий.<br><br><br>",
           "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"index.html#form2-d\" data-toolbar=\"-mbrBtnMove\">ПОЛУЧИТЬ ИНСТРУКЦИЮ</a>"
         },
